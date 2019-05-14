@@ -20,6 +20,13 @@ end
 return new_array1
 end  
 
-def printer
-  
+def printer(new_array, new_array1)
+  new_array << new_array1
+  new_array.each do |i|
+    print i
+  end 
+  return new_array
 end  
+
+Hello, my name is Matz.
+Hello, Edsger! You'll be assigned to room 1!
